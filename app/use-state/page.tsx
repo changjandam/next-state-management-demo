@@ -6,15 +6,15 @@ import { useState } from "react";
 const UseStatePage = () => {
   const [query, setQuery] = useState("");
   return (
-    <div className="flex flex-col">
-      <h1 className="text-4xl mb-4">use useState Page</h1>
+    <div className='flex flex-col'>
+      <h1 className='text-4xl mb-4'>use useState Page</h1>
       <input
-        type="text"
-        className="border"
+        type='text'
+        className='border w-80'
         defaultValue={query}
         onChange={(e) => setQuery(e.target.value)}
       />
-      <Link href="/end">go to End Page</Link>
+      <Link href='/end'>go to End Page</Link>
     </div>
   );
 };

@@ -10,7 +10,7 @@ const UseZustandPage = () => {
       <h1 className='text-4xl mb-4'>use zustand Page</h1>
       <input
         type='text'
-        className='border'
+        className='border w-80'
         defaultValue={query}
         onChange={(e) => setQuery(e.target.value)}
       />
